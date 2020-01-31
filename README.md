@@ -1,0 +1,1 @@
+# cpp_first_static_lib
