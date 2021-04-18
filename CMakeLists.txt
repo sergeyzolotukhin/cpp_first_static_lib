@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.15)
 project(pdcurses C)
 
 set(CMAKE_C_STANDARD 11)
+add_definitions(-DPDCDEBUG)
 
 include_directories(.)
 include_directories(common)
